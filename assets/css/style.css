@@ -1,0 +1,97 @@
+
+.flag img{
+	width:100%
+}
+
+h3.CNAME{
+	margin:15px 0;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:24px;
+	color:orange;
+}
+
+.details{
+	text-transform:capitalize;
+	font-size:18px;
+	color:#747474;
+}
+
+.details > p {
+	margin-bottom: 5px;
+}
+
+/* .capital{
+	margin: 15px 15px;
+}
+.capital{
+	margin: 15px 15px;
+}
+.population{
+	margin: 15px 15px;
+} */
+#Alphabet,#CapiTal,#Population{
+	border-radius: 25px; 
+}
+
+
+#Population{
+	margin-right: 25px;
+	
+}
+
+
+#graph{
+    width: 100%;
+    padding: 50px 20px 20px;
+    background-color: #ededed;
+}
+
+#graph .skillbox{
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+#graph .skillbox p,
+#graph .skillbox .skill{
+    float: left;
+}
+
+#graph .skillbox p:first-child{
+    width: calc(100% * 2 / 12);
+}
+
+#graph .skillbox p:last-child{
+    width: calc(100% * 1 / 12);
+}
+
+#graph .skillbox .skill{
+    width: calc(100% * 7 / 12);
+    border: 2px solid #d5f100;
+    /* border-radius: 10px; */
+    overflow: hidden;
+}
+
+#graph .skillbox .skill .skill_level{
+    background-color: #e6bf0e;
+    height: 20px;
+}
+
+.upArrowIcon{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+#SearchBox{
+	
+	border-radius:25px;
+	position: relative;
+	background-color: #ededed;
+	padding: 23px;
+}
